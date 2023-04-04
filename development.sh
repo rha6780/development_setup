@@ -1,8 +1,6 @@
 #!/bin/bash
 #.zshrc 기준 
 
-echo `/proc/$$/cmdline`
-
 all() {
     basic_setup
     vscode
