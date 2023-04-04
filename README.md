@@ -12,14 +12,14 @@ sh development.sh basic
 # install 리스트
 
 Basic
-├ brew
-├ git
-├ zsh
-├ rectangle
-⎿ rbenv
-    ⎿ ruby 3.1.2
+├── brew
+├── git
+├── zsh
+├── docker
+├── rectangle
+└── rbenv
+    └── ruby 3.1.2
 
 ```
 
-
-setup 목록들은 설치 및 해당하는 명령어가 비슷한 것 끼리 각각 분류되고, json 형식으로 작성됩니다.
+setup 목록들은 설치 및 해당하는 명령어가 비슷한 것 끼리 각각 분류되고 필요할 때마다 업데이트 됩니다.

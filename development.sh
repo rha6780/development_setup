@@ -1,10 +1,6 @@
 #!/bin/bash
 #.zshrc 기준 
 
-all() {
-    basic_setup
-    vscode
-}
 
 vscode() {
     echo "vscode"
@@ -26,6 +22,7 @@ basic_setup() {
     brew_install zsh
     brew_install rbenv
     brew_install --cask rectangle
+    brew_install --cask docker
 
     if [[ -z `which rbenv` ]]; then
         setup_rbenv 3.1.2
