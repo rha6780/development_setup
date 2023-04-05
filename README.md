@@ -16,6 +16,7 @@ Basic
 ├── git
 ├── zsh
 ├── docker
+├── pipenv
 ├── rectangle
 └── rbenv
     └── ruby 3.1.2

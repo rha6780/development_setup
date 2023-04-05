@@ -21,6 +21,7 @@ basic_setup() {
     brew_install git
     brew_install zsh
     brew_install rbenv
+    brew_install pipenv
     brew_install --cask rectangle
     brew_install --cask docker
 
