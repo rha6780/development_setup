@@ -24,6 +24,7 @@ basic_setup() {
     brew_install pipenv
     brew_install --cask rectangle
     brew_install --cask docker
+    brew install --cask tableplus
 
     if [[ -z `which rbenv` ]]; then
         setup_rbenv 3.1.2
