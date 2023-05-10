@@ -24,6 +24,7 @@ basic_setup() {
     brew_install pipenv
     brew_install pre-commit
     brew_install tfenv
+    brew_install awscli
     brew_install --cask rectangle
     brew_install --cask docker
     brew install --cask tableplus
