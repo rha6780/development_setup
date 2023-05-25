@@ -15,7 +15,11 @@ Basic
 ├── brew
 ├── git
 ├── zsh
+├── pre-commit
+├── tfenv
+├── awscli
 ├── docker
+├── table_plus
 ├── pipenv
 ├── rectangle
 └── rbenv
