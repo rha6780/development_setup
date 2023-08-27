@@ -20,6 +20,19 @@ basic_setup() {
 
     brew_install git
     brew_install zsh
+    brew_install node@16
+    brew_install libpq
+    echo 'export PATH="/opt/homebrew/opt/libpq/bin:$PATH"' >> ~/.zshrc
+    export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
+    export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
+    export PKG_CONFIG_PATH="/opt/homebrew/opt/libpq/lib/pkgconfig"
+    brew_install postgresql@15
+    echo 'export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"' >> ~/.zshrc
+    export LDFLAGS="-L/opt/homebrew/opt/postgresql@15/lib"
+    export CPPFLAGS="-I/opt/homebrew/opt/postgresql@15/include"
+    export PKG_CONFIG_PATH="/opt/homebrew/opt/postgresql@15/lib/pkgconfig"
+    brew services restart postgresql@15
+    brew_install openjdk@11
     brew_install rbenv
     brew_install pipenv
 <<<<<<< HEAD
