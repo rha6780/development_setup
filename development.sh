@@ -22,9 +22,13 @@ basic_setup() {
     brew_install zsh
     brew_install rbenv
     brew_install pipenv
+<<<<<<< HEAD
     brew_install pre-commit
     brew_install tfenv
     brew_install awscli
+=======
+    brew_install python@3.10
+>>>>>>> fef75cf (fix: python 3.10 추가)
     brew_install --cask rectangle
     brew_install --cask docker
     brew install --cask tableplus
