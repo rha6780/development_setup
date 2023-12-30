@@ -15,15 +15,12 @@ Basic
 ├── brew
 ├── git
 ├── zsh
-<<<<<<< HEAD
 ├── pre-commit
 ├── tfenv
 ├── awscli
 ├── docker
 ├── table_plus
-=======
 ├── python@3.10
->>>>>>> fef75cf (fix: python 3.10 추가)
 ├── pipenv
 ├── docker
 ├── rectangle
