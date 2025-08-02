@@ -6,6 +6,8 @@ brew "pipenv"
 brew "tfenv"
 brew "jenv"
 brew "pre-commit"
+brew "zsh-syntax-highlighting"
+brew "zsh-autosuggestions"
 
 cask "iterm2"
 cask "google-chrome"
