@@ -17,6 +17,7 @@ sh development.sh basic
 
 ### development.sh 의 install 리스트
 
+```
 Basic
 ├── brew
 ├── git
